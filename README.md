@@ -6,7 +6,7 @@ Gate quantizer or CV to clocked gate converter? Call it what you will!
 
 Many mods are possible! It could be expanded to have 8 channels. You could use the remaining digital pins to have inverted outputs for each channel, or an onboard clock and divider, etc.
 
-The main schematic was made with Eurorack and other bipolar big jack synths in mind, the 5v version with AE modular, Bastl Kastle and other unipolar 5v synths in mind - but as always this is not a hard and fast rule and features can be mixed and matched between either version to suit your needs.
+The main schematic was made with Eurorack and other bipolar big jack synths in mind, the 5v version with AE modular and other unipolar 5v synths in mind - but as always this is not a hard and fast rule and features can be mixed and matched between either version to suit your needs.
 
 If you have questions or problems or think of some good feature creep please message me at modwiggler or the AE modular forums both @haggardgrin 
 
