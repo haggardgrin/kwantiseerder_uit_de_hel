@@ -1,4 +1,4 @@
-# kwantiseerder_uit_de_hel
+# Kwantiseerder uit de Hel
 
 Gate quantizer or CV to clocked gate converter? Call it what you will!
 
