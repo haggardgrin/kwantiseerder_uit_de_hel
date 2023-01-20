@@ -33,7 +33,7 @@ void setup() {
 
 void loop() {
   for (Channel = 0; Channel < 6; Channel++) { 
-    CVin = analogRead(Channel);
+    CVin = analogRead(CVinPins[Channel]);
     if (CVin > CVThreshold) {ChSet[Channel] = HIGH; } 
   }
   ClockPinStatus = analogRead(ClockPin);
