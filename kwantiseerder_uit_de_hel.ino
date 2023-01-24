@@ -1,20 +1,22 @@
 /*
 Arduino Nano
 
-External Clock Input A7
-CV Inputs  A0-A5
-6 Gate Outputs D2-D7
+1 External Clock Input A7
+6 Channel Inputs 
+6 Offset Pots
+Channel Inputs + Pots mixed and sent to A0-A5
+6 Channel Outputs D2-D7
 
 Output bandwidth follows clock input bandwidth
-Does not need regular clock source, any signal crossing 1v will work.
-Each channel generates clocked gates based on the input mixer and thresholds set below.
+Does not need regular clock source, any signal that crosses threshold will work - Default 1v
+Each channel generates clocked gates based on the input mixer, offset pot and threshold - Default 2.5v
 */
   int OutPins[] = {2, 3, 4, 5, 6, 7};
   int CVinPins[] = {A0, A1, A2, A3, A4, A5};
   int ClockPin = A7;
 
-  const int CVThreshold = 200; 
-  const int ClockThreshold = 200; 
+  const int CVThreshold = 511; 
+  const int ClockThreshold = 204; 
 
   int CVin = 0;
   int Channel = 0;
